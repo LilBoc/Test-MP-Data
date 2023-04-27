@@ -12,7 +12,6 @@ model = joblib.load(open('model.pkl', 'rb'))
 scaler = joblib.load('scaler.pkl')
 seuil = 0.3   #A définir plus précisément avec le métier
 
-# coding=utf-8
 
 #default page of our web-app
 @app.route('/')
